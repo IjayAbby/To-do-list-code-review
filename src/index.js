@@ -49,9 +49,7 @@ const getTaskData = () => {
   }
 };
 
-const setData = () => {
-  localStorage.setItem('TaskData', JSON.stringify(toDoTasks));
-};
+const setData = () => { localStorage.setItem('TaskData', JSON.stringify(toDoTasks)); };
 
 const refrestTargetDragDrop = () => {
   const tasks = document.querySelectorAll('.container-list .item');
